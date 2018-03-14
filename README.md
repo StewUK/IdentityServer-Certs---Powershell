@@ -2,6 +2,7 @@
 
 # Only works on Win10/Server 2016
 
+Auth X509 Cert
 ```
 [CmdletBinding()]
 param(
@@ -56,6 +57,7 @@ Export-Certificate -Cert $store -FilePath $vCerFile
 Write-Host "Token-validation thumbprint: " $cert.Thumbprint
 ```
 
+SSL Cert
 ```
 [CmdletBinding()]
 param(
